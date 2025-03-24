@@ -1,0 +1,185 @@
+/* Ini Eksternal css */
+
+.main-header > h1 {
+  background-color: aquamarine;
+  text-align: center;
+  padding: 10px;
+}
+
+.katik {
+  font-family: cursive;
+}
+
+.welcome-text {
+  align-items: center;
+  font-weight: bold;
+  font-size: larger;
+}
+
+.description-text {
+  padding: 10px;
+}
+
+main {
+  text-align: center;
+}
+
+.nav-fitur {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-fitur > a {
+  color: white;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 50%;
+  align-self: center;
+}
+
+.nav-fitur-non-active {
+  background-color: darkcyan;
+}
+
+.nav-fitur-active {
+  background-color: cornflowerblue;
+}
+
+section {
+  margin-top: 16px;
+  margin-bottom: 16px;
+}
+
+.section-header {
+  background-color: aquamarine;
+  padding: 16px;
+}
+
+.section-image {
+  background-image: url(../assets/gambar-persegi.png);
+  width: 200px;
+  height: 200px;
+  justify-self: center;
+  background-size: cover;
+  background-position: center;
+}
+
+.calculate-content {
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  border: 1px solid;
+  height: auto;
+}
+
+.rumus-luas {
+  font-weight: bold;
+  font-size: large;
+  margin: 2rem;
+}
+
+.section-luas-description {
+  text-align: left;
+  margin: 10px;
+}
+
+.input-luas {
+  padding: 5px;
+  width: 30%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+  -moz-appearance: textfield;
+}
+
+.input-luas::-webkit-outer-spin-button,
+.input-luas::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.section-luas-result {
+  align-self: flex-start;
+  text-align: left;
+  margin: 10px;
+  width: 100%;
+}
+
+.rumus-keliling {
+  font-weight: bold;
+  font-size: large;
+  margin: 2rem;
+}
+
+.section-keliling-description {
+  text-align: left;
+  margin: 10px;
+}
+
+.input-keliling {
+  padding: 5px;
+  width: 30%;
+  height: 30px;
+  border: 1px solid;
+  border-radius: 5px;
+  -moz-appearance: textfield;
+}
+
+.input-keliling::-webkit-outer-spin-button,
+.input-keliling::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+.section-keliling-result {
+  align-self: flex-start;
+  text-align: left;
+  margin: 10px;
+  width: 100%;
+}
+
+.btn-hitung-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.btn-reset-wrapper {
+  position: absolute;
+  display: flex;
+  height: 100%;
+  bottom: 0px;
+  right: 10px;
+}
+
+.btn-hitung {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  background-color: cornflowerblue;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.btn-reset {
+  padding: 10px 20px;
+  margin: 10px 10px;
+  background-color: orangered;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 5px;
+  align-self: flex-end;
+}
+
+footer {
+  background-color: aquamarine;
+  height: 100%;
+  text-align: center;
+}
+
+footer > .creator {
+  padding: 10px;
+}
