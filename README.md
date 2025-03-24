@@ -1,6 +1,6 @@
 ## Katik (Kalkulator Matematik)
 
-Created by Fajrin Alifian
+Created by me A.K.A Fajrin Alifian
 
 
 ## Features
