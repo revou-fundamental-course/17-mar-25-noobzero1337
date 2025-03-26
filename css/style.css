@@ -26,7 +26,14 @@ main {
 
 .nav-fitur {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+}
+
+@media only screen AND (max-width: 480px) {
+  .nav-fitur {
+    display: flex;
+    flex-direction: column;
+  }
 }
 
 .nav-fitur > a {
